@@ -7,7 +7,8 @@ export default function Home() {
     <main>
       <h1>hello World</h1>
       <Link href="/users">Users</Link>
-
+      <br />
+      <Link href="/users/new">Users New folder Page</Link>
       <ProductCard />
     </main>
   );
