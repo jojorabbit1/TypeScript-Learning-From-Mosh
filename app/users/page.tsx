@@ -1,15 +1,8 @@
-import { link } from "fs";
 import React from "react";
 import UserTable from "./UserTable";
 
-interface User {
-  id: number;
-  name: String;
-  email: String;
-}
-
 interface Props {
-  searchParams: { sortOrder: String };
+  searchParams: { sortOrder: string };
 }
 
 const UsersPage = async ({ searchParams: { sortOrder } }: Props) => {
